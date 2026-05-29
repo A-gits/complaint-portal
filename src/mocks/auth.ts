@@ -4,7 +4,7 @@ const mockUsers: AuthUser[] = [
   {
     id: 'admin-1',
     name: 'Admin User',
-    email: 'admin@packline.com',
+    email: 'admin@company.com',
     role: 'admin',
     createdAt: '2024-01-01T00:00:00Z',
     isActive: true,
@@ -13,7 +13,7 @@ const mockUsers: AuthUser[] = [
   {
     id: 'agent-1',
     name: 'Gabriel Agent',
-    email: 'agent@packline.com',
+    email: 'agent@company.com',
     role: 'agent',
     createdAt: '2024-01-05T00:00:00Z',
     isActive: true,

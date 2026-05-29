@@ -181,7 +181,7 @@ export const LoginPage = () => {
             </div>
  
             <Typography style={{ color:'rgba(255,255,255,0.18)', fontSize:11.5, marginTop:30 }}>
-              © 2025 Packline Systems Ltd. · All rights reserved
+              © 2026 Packline Systems Ltd. Gabriel Oluwaseun · All rights reserved
             </Typography>
           </div>
         </div>
@@ -277,8 +277,8 @@ export const LoginPage = () => {
                 Mock logins
               </Typography>
               {[
-                { label:'Admin',  email:'admin@packline.com',  color:'239,68,68'   },
-                { label:'Agent',  email:'agent@packline.com',  color:'59,130,246'  },
+                { label:'Admin',  email:'admin@company.com',  color:'239,68,68'   },
+                { label:'Agent',  email:'agent@company.com',  color:'59,130,246'  },
                 { label:'Client', email:'client@company.com',  color:'34,197,94'   },
               ].map(({ label, email: e, color }) => (
                 <div key={label} style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:6 }}>
